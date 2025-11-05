@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^([a-z]+)\/?([a-z]*)\/?([0-9]*)$ Router.php?controller=$1&method=$2&id=$3
